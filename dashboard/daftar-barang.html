@@ -47,22 +47,22 @@
 </span>
 
 <div class="side-menu side-fab  display-933">
-       <a  href="dashboard.html" class="dashboard-menu-box" title="Dashboard" data-toggle="tooltip" data-placement="top">
+       <a  href="dashboard" class="dashboard-menu-box vw-1" title="Dashboard" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-database fa-fw"></span>
       </a>
-      <a href="daftar-barang.html" class="dashboard-menu-box" title="Daftar Barang" data-toggle="tooltip" data-placement="top">
+      <a href="daftar-barang" class="dashboard-menu-box vw-1 vw-1" title="Daftar Barang" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-list fa-fw"></span>
       </a>
-      <a class="dashboard-menu-box" title="Diskon dan Promo" data-toggle="tooltip" data-placement="top">
+      <a class="dashboard-menu-box vw-1 vw-1" title="Diskon dan Promo" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-star fa-fw"></span>
       </a>
-       <a class="dashboard-menu-box" title="Gudang" data-toggle="tooltip" data-placement="top">
+       <a class="dashboard-menu-box vw-1 vw-1" title="Gudang" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-archive fa-fw"></span>
       </a>
-      <a class="dashboard-menu-box" title="Laporan" data-toggle="tooltip" data-placement="top">
+      <a class="dashboard-menu-box vw-1 vw-1" title="Laporan" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-file fa-fw"></span>
       </a>
-      <a class="dashboard-menu-box" title="Pengaturan Toko" data-toggle="tooltip" data-placement="top">
+      <a class="dashboard-menu-box vw-1 vw-1" title="Pengaturan Toko" data-toggle="tooltip" data-placement="top">
         <span class="fa fa-gear fa-fw"></span>
       </a>
 </div>
@@ -93,9 +93,9 @@
     <div class="box menus">
     <div class="row choosen">
       <div  class="col-lg-2">
-       <a class="dashboard-menu-box" href="dashboard.html">
+       <a class="dashboard-menu-box vw-1" href="dashboard">
         <span class="fa fa-database fa-fw"></span>
-        <div class="title">
+        <div class="title vw-1">
           Dashboard
           <br>
           &nbsp;
@@ -103,49 +103,45 @@
       </a>
     </div>
     <div  class="col-lg-2">
-      <a class="dashboard-menu-box"  href="daftar-barang.html">
+      <a class="dashboard-menu-box vw-1"  href="daftar-barang">
         <span class="fa fa-list fa-fw"></span>      
-        <div class="title">
+        <div class="title vw-1">
           Daftar Barang
         </div>
       </a>
     </div>
     <div  class="col-lg-2">
-      <a class="dashboard-menu-box">
+      <a class="dashboard-menu-box vw-1">
         <span class="fa fa-star fa-fw"></span>
         <br>
-        <div class="title">
+        <div class="title vw-1">
          Diskon dan Promo
         </div>
       </a>
     </div>
     <div  class="col-lg-2">
-       <a class="dashboard-menu-box">
+       <a class="dashboard-menu-box vw-1">
         <span class="fa fa-archive fa-fw"></span>
         <br>
-        <div class="title">
+        <div class="title vw-1">
           Gudang
-          <br>
-          &nbsp;
         </div>
       </a>
     </div>
     <div  class="col-lg-2">
-      <a class="dashboard-menu-box">
+      <a class="dashboard-menu-box vw-1">
         <span class="fa fa-file fa-fw"></span>
         <br>
-        <div class="title">
+        <div class="title vw-1">
           Laporan
-          <br>
-          &nbsp;
         </div>
       </a>
     </div>
     <div  class="col-lg-2">
-      <a class="dashboard-menu-box">
+      <a class="dashboard-menu-box vw-1">
         <span class="fa fa-gear fa-fw"></span>
         <br>
-        <div class="title">
+        <div class="title vw-1">
           Pengaturan Toko
         </div>
       </a>
@@ -187,29 +183,35 @@
 	<div class="black-box">
 		<span class="big-title">Daftar Barang</span>
 		<div class="input-input-group input-input-group2">
-		<div class="div1">
-			<select name="" class="form-control fc1">
+		<div class="row">
+			<div class="col-lg-3 col-6">
+				<select name="" class="form-control fc1 vw-1">
 			<option value="">Kategori Barang</option>
 		</select>
-		<select name="" class="form-control fc2">
+			</div>
+			<div class="col-lg-3 col-6">
+				<select name="" class="form-control fc2 vw-1">
 			<option value="">Semua Barang</option>
 		</select>
-		</div>
-		<div class="div2">
-			<input type="" class="form-control fc3" placeholder="search" name="">
-		<button type=""><span class="fa fa-search"></span></button>
-		</div>				
+			</div>
+			<div class="col-lg-3 col-8">
+				<input type="" class="form-control fc3 vw-1" placeholder="search" name="">
+			</div>
+			<div class="col-lg-3 col-4">
+				<button type="" class="btn vw-1"><span class="fa fa-search"></span></button>	
+			</div>
+		</div>		
 		</div>
 		<div class="total">
 			<div class="row">
 				<div class="col">
-					<input type="" class="form-control" placeholder="Total" name="">
+					<input type="" class="form-control vw-1" placeholder="Total" name="">
 				</div>
 				<div class="col-4">
-					<input type="" class="form-control fc2" name="">
+					<input type="" class="form-control fc2 vw-1" name="">
 				</div>
 				<div class="col-4">
-					<input type="" class="form-control fc3" name="">
+					<input type="" class="form-control fc3 vw-1" name="">
 				</div>
 			</div>
 		</div>		   
@@ -219,7 +221,7 @@
 		<div class="flex-grow-1  d-flex flex-column data-barang-mini-box">
 			<div class="row" style="">
 					<div class="col-12   flex-grow-1" style="padding-bottom: 0px;">
-				<div class="daftar-barang-head">
+				<div class="daftar-barang-head vw-1">
 				<div class="row">
 					<div class="col">
 						Nama Barang
@@ -242,8 +244,8 @@
 			</div>	
 			<div class="row   flex-grow-1" style="">
 					<div class="col-12 fixed-boxes  flex-grow-1">
-				<div class="boxes daftar-barang-box d-flex flex-column">
-				<div style="   flex: 1 1 0;
+				<div class="boxes daftar-barang-box vw-1 d-flex flex-column">
+										<div style="   flex: 1 1 0;
 overflow: auto;overflow-x: hidden;">
 <div class="row" >
 	<div class="col">
@@ -620,7 +622,7 @@ overflow: auto;overflow-x: hidden;">
 		10
 	</div>
 </div>	
-</div>					
+</div>
 				</div>
 			</div>
 			</div>	
@@ -632,6 +634,7 @@ overflow: auto;overflow-x: hidden;">
 	</div>
 </div>
 <center class="trademark">Copyright &copy;2021 Kiosman Inc. All rights reserved.</center>
+
 
 <!-- Tutup Container -->
 </div>
@@ -704,9 +707,10 @@ var myChart = new Chart(ctx, {
         }
     }
 });
+</script>
 
-
-var ctx = document.getElementById('Chart2');
+<script >
+    var ctx = document.getElementById('Chart2');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -746,10 +750,10 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-    	 legend: {
-    	 	display:false
-    	 },
-
+         legend: {
+            display:false
+         }
+        ,
         scales: {
             yAxes: [{
                 ticks: {
