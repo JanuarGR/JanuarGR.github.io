@@ -313,7 +313,7 @@ nav.navbar .fa{
 
 .wrapper .box.content .black-box .input-group input{
   border: 0px solid transparent;
-  text-align: center;
+  text-align: center;padding-right: 0px;padding-left: 0px;
 }
 
 .wrapper .box.content .black-box .input-group button{
@@ -411,10 +411,8 @@ display: block;
 
 .wrapper .box.content canvas{
   padding: 10px;
-
-min-height: 0px;
-width: 100%!important;
-height: 100%!important;
+  height: 100%!important;
+  width: 100%!important;
 }
 
 center.trademark{
@@ -470,7 +468,14 @@ center.trademark{
     display: none;
   }
 @media (max-width: 995px){
-
+.wrapper .box.content .black-box .input-group{
+    overflow: hidden;
+    width: 180px;
+    position: relative;
+    top: 1px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
 
     .vw-1{
       font-size: 13px!important;
